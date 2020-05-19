@@ -15,7 +15,7 @@ class App extends Component {
     }
     this.state = {
       loggedIn: token ? true : false,
-      nowPlaying: { name: '', albumArt: '' }
+      nowPlaying: { name: '', artist: '', albumArt: '' }
     }
   }
   getHashParams() {
@@ -36,6 +36,7 @@ class App extends Component {
         this.setState({
           nowPlaying: {
             name: response.item.name,
+            artist: response.item.artists[0].name,
             albumArt: response.item.album.images[0].url
           }
         });
@@ -55,6 +56,9 @@ class App extends Component {
         </div>
         <div>
           <img src={this.state.nowPlaying.albumArt} style={{ height: 150 }} alt="album art" />
+        </div>
+        <div className="Paragraph">
+          {this.state.nowPlaying.artist}
         </div>
         {this.state.loggedIn &&
           <button onClick={() => this.getNowPlaying()} className="btn btn-dark">Check Spotify Now Playing</button>
