@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Mosaic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-left: 20rem;
+  margin-right: 20rem;
+}
+
+.title {
+  font-size: 2.5em;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+.button {
+  font-family: Montserrat;
+  border-radius: 300px;
+  font-size: 1em;
+  height: 1.5em;
+  text-decoration: none;
+  color: black;
+  margin: 1em;
+}
+
+.App {
+  margin: 1rem;
+  text-align: center;
+}
