@@ -115,13 +115,11 @@ class App extends Component {
           <img src={this.state.recentlyPlayed.albumArt18} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
           <img src={this.state.recentlyPlayed.albumArt19} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
         </div>
-        <br />
+        <div className ="buttons">
         {this.state.loggedIn &&
-          <button onClick={() => this.getRecentlyPlayed()} className="button">Check Spotify Mosaic</button>
+          <button onClick={() => this.getRecentlyPlayed()} className ="button">Check Spotify Mosaic</button>
         }
-        <br />
-        <div className='button'>
-          <a href='http://localhost:8888'> Login to Spotify </a>
+        <a href='http://localhost:8888' className ="button"> Login to Spotify </a>
         </div>
       </div>
     );
