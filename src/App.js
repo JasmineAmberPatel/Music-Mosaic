@@ -94,32 +94,32 @@ class App extends Component {
         </div>
         <br />
         <div className="Mosaic">
-          <img src={this.state.recentlyPlayed.albumArt0} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt1} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt2} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt3} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt4} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt5} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt6} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt7} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt8} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt9} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt10} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt11} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt12} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt13} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt14} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt15} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt16} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt17} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt18} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
-          <img src={this.state.recentlyPlayed.albumArt19} style={{ height: 150 }} alt="album art" onerror="this.style.display='none'" />
+          <img src={this.state.recentlyPlayed.albumArt0} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt1} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt2} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt3} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt4} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt5} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt6} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt7} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt8} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt9} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt10} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt11} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt12} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt13} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt14} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt15} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt16} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt17} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt18} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt19} style={{ height: 150 }} alt="album art"/>
         </div>
         <div className ="buttons">
-        {this.state.loggedIn &&
+        
           <button onClick={() => this.getRecentlyPlayed()} className ="button">Check Spotify Mosaic</button>
-        }
-        <a href='http://localhost:8888' className ="button"> Login to Spotify </a>
+        
+        <a href='https://spotify-mosaic-backend.herokuapp.com/' className ="button"> Login to Spotify </a>
         </div>
       </div>
     );
