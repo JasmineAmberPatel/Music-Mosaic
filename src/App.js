@@ -119,7 +119,7 @@ class App extends Component {
         
           <button onClick={() => this.getRecentlyPlayed()} className ="button">Check Spotify Mosaic</button>
         
-        <a href='https://spotify-mosaic-backend.herokuapp.com/' className ="button"> Login to Spotify </a>
+        <a href='https://spotify-mosaic-backend.herokuapp.com/login' className ="button"> Login to Spotify </a>
         </div>
       </div>
     );
