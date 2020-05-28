@@ -16,7 +16,6 @@ class App extends Component {
   componentDidMount() {
     let parsed = queryString.parse(window.location.search);
     let accessToken = parsed.access_token;
-    console.log(parsed);
     if (!accessToken)
       return;
     fetch('https://api.spotify.com/v1/me', {
@@ -29,6 +28,7 @@ class App extends Component {
     }).then(response => response.json())
       .then(data => this.setState({
         recentlyPlayed: data.items.map(item => {
+          console.log(data.items)
             return {
               albumArt: item.track.album.images[0].url,
             }
