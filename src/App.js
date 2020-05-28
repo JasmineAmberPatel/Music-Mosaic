@@ -29,7 +29,7 @@ class App extends Component {
       .then(data => this.setState({
         recentlyPlayed: data.items.map(item => {
             return {
-              albumArt: item.track.album.images[0].url,
+              albumArt: item[0].track.album.images[0].url,
             }
           })
         }))
