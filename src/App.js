@@ -36,7 +36,7 @@ class App extends Component {
   }
 
   getRecentlyPlayed() {
-    return this.state.recentlyPlayed.albumArt
+    return this.state.recentlyPlayed.albumArt.values()
   }
 
 
@@ -51,7 +51,7 @@ render() {
       </div>
       <br />
       <div className="Mosaic">
-        <img src={this.state.recentlyPlayed[0].albumArt} style={{ height: 50 }} alt="album art" />
+        <img src={this.getRecentlyPlayed} style={{ height: 50 }} alt="album art" />
       </div>
       <div className="buttons">
         <button onClick={() => this.getRecentlyPlayed()} className="button">Check Spotify Mosaic</button>
