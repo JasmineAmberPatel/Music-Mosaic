@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './index.css';
-import queryString from 'querystring';
+import queryString from 'query-string';
 
 class App extends Component {
   constructor() {
@@ -16,6 +16,7 @@ class App extends Component {
   componentDidMount() {
     let parsed = queryString.parse(window.location.search);
     let accessToken = parsed.access_token;
+    console.log(accessToken);
     if (!accessToken)
       return;
     fetch('https://api.spotify.com/v1/me', {
