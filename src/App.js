@@ -31,7 +31,7 @@ class App extends Component {
       .then(data => this.setState({
         recentlyPlayed: data.items.map(item => {
           return {
-            albumArt0: item[0].track.album.images[0].url,
+            albumArt: <img src={item.track.album.images[0].url} alt="album art"/>
           }
         })
       }))
@@ -43,9 +43,7 @@ class App extends Component {
   }
 
 
-
   render() {
-    console.log(this.state);
     return (
       <div className="App">
         <br />
@@ -54,7 +52,7 @@ class App extends Component {
         </div>
         <br />
         <div className="Mosaic">
-          <img src={this.state.recentlyPlayed.albumArt} style={{ height: 50 }} alt="album art" />
+          {this.getRecentlyPlayed()}
         </div>
         <div className="buttons">
           <button onClick={() => this.getRecentlyPlayed()} className="button">Check Spotify Mosaic</button>
