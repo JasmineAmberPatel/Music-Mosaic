@@ -7,9 +7,7 @@ class App extends Component {
     super();
     this.state = {
       name: '',
-      recentlyPlayed: {
-        albumArt: []
-      }
+      albumArt: []
     }
   }
 
@@ -27,18 +25,13 @@ class App extends Component {
     fetch('https://api.spotify.com/v1/me/player/recently-played?limit=50', {
       headers: { 'Authorization': 'Bearer ' + accessToken }
     }).then(response => response.json())
-      .then(data => this.setState({
-        recentlyPlayed: data.items.map(item => {
-            console.log(data.items)
-            return {
-              albumArt: item.track.album.images[0].url,
-            }
-          })
-        }))
+      .then(data => this.setState({albumArt: data.item.track.album.images[0].url})
+    )
+  console.log(this.state.albumArt);
   }
 
   getRecentlyPlayed() {
-    return this.state.recentlyPlayed.albumArt
+    return this.state.albumArt
   }
 
 render() {
@@ -51,7 +44,7 @@ render() {
       </div>
       <br />
       <div className="Mosaic">
-        <img src={this.state.recentlyPlayed.albumArt} style={{ height: 150 }} alt="album art" />
+        <img src={this.state.albumArt} style={{ height: 150 }} alt="album art" />
       </div>
       <div className="buttons">
         <button onClick={() => this.getRecentlyPlayed()} className="button">Check Spotify Mosaic</button>
