@@ -136,11 +136,6 @@ class App extends Component {
       .catch(error => alert('cannot retrieve spotify information right'));
   }
 
-  getRecentlyPlayed() {
-    return this.state.recentlyPlayed.albumArt
-  }
-
-
   render() {
     console.log(this.state);
     return (
@@ -203,7 +198,7 @@ class App extends Component {
           <img src={this.state.recentlyPlayed.albumArt49} style={{ height: 150 }} alt="album art"/>
         </div>
         <div className="buttons">
-          <button onClick={() => this.getRecentlyPlayed()} className="button">Check Spotify Mosaic</button>
+          <button onClick={() => this.componentDidMount()} className="button">Check Spotify Mosaic</button>
           <button onClick={() => window.location = 'https://spotify-mosaic-backend.herokuapp.com/login'} className="button">Login to Spotify</button>
         </div>
       </div>
