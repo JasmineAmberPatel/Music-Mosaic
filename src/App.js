@@ -10,7 +10,7 @@ class App extends Component {
     super();
     this.state = {
       loggedIn: accessToken ? true : false,
-      name: '',
+      name: 'Cool Kid',
       recentlyPlayed: {
         albumArt0: '',
         albumArt1: '',
