@@ -110,7 +110,7 @@ class App extends Component {
             albumArt27: item[27].track.album.images[0].url,
             albumArt28: item[28].track.album.images[0].url,
             albumArt29: item[29].track.album.images[0].url,
-            albumArt30: item[10].track.album.images[0].url,
+            albumArt30: item[30].track.album.images[0].url,
             albumArt31: item[31].track.album.images[0].url,
             albumArt32: item[32].track.album.images[0].url,
             albumArt33: item[33].track.album.images[0].url,
