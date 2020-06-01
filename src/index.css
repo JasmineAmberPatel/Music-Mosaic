@@ -17,8 +17,8 @@ code {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-left: 22rem;
-  margin-right: 22rem;
+  width: 650px;
+  margin: auto;
 }
 
 .title {
