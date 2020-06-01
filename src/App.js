@@ -61,7 +61,6 @@ class App extends Component {
         albumArt46: '',
         albumArt47: '',
         albumArt48: '',
-        albumArt49: '',
       }
     }
   }
@@ -128,7 +127,6 @@ class App extends Component {
             albumArt46: data.items[46].track.album.images[0].url,
             albumArt47: data.items[47].track.album.images[0].url,
             albumArt48: data.items[48].track.album.images[0].url,
-            albumArt49: data.items[49].track.album.images[0].url,
           }
         })
       )
@@ -194,7 +192,6 @@ class App extends Component {
           <img src={this.state.recentlyPlayed.albumArt46} alt="album art"/>
           <img src={this.state.recentlyPlayed.albumArt47} alt="album art"/>
           <img src={this.state.recentlyPlayed.albumArt48} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt49} alt="album art"/>
         </div>
         <div className="buttons">
         {this.state.loggedIn &&
