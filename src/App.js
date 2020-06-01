@@ -145,56 +145,56 @@ class App extends Component {
         </div>
         <br />
         <div className="Mosaic">
-          <img src={this.state.recentlyPlayed.albumArt0} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt1} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt2} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt3} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt4} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt5} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt6} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt7} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt8} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt9} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt10} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt11} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt12} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt13} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt14} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt15} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt16} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt17} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt18} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt19} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt20} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt21} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt22} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt23} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt24} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt25} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt26} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt27} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt28} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt29} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt30} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt31} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt32} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt33} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt34} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt35} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt36} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt37} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt38} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt39} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt40} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt41} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt42} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt43} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt44} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt45} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt46} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt47} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt48} style={{ height: 150 }} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt49} style={{ height: 150 }} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt0} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt1} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt2} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt3} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt4} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt5} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt6} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt7} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt8} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt9} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt10} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt11} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt12} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt13} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt14} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt15} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt16} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt17} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt18} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt19} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt20} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt21} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt22} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt23} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt24} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt25} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt26} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt27} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt28} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt29} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt30} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt31} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt32} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt33} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt34} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt35} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt36} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt37} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt38} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt39} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt40} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt41} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt42} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt43} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt44} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt45} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt46} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt47} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt48} alt="album art"/>
+          <img src={this.state.recentlyPlayed.albumArt49} alt="album art"/>
         </div>
         <div className="buttons">
         {this.state.loggedIn &&
