@@ -72,9 +72,12 @@ img {
   width: 90%
   }
   .title {
-    font-size: 1em;
+    font-size: 1.5em;
   }
   img {
-    height: 50px;
+    height: 55px;
+  }
+  .lastPic {
+    display: none;
   }
 }

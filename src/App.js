@@ -191,7 +191,7 @@ class App extends Component {
           <img src={this.state.recentlyPlayed.albumArt45} alt="album art"/>
           <img src={this.state.recentlyPlayed.albumArt46} alt="album art"/>
           <img src={this.state.recentlyPlayed.albumArt47} alt="album art"/>
-          <img src={this.state.recentlyPlayed.albumArt48} alt="album art"/>
+          <img className="lastPic" src={this.state.recentlyPlayed.albumArt48} alt="album art"/>
         </div>
         <div className="buttons">
           <button onClick={() => window.location = 'https://spotify-mosaic-backend.herokuapp.com/login'} className="button">Get My Mosaic</button>
