@@ -82,12 +82,13 @@ img {
   }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 415px) {
   .Mosaic {
     width: 90%
     }
     .title {
       font-size: 1.5em;
+      width: 90%
     }
   img {
     height: 45px;
@@ -107,6 +108,7 @@ img {
     }
     .title {
       font-size: 1.5em;
+      width: 90%
     }
   img {
     height: 40px;
