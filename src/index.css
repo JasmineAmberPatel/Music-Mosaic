@@ -82,7 +82,14 @@ img {
   }
 }
 
-@media (max-width: 415px) {
+@media (max-width: 500px) {
+  .button {
+    width: 10em;
+    font-size: 0.5em;
+  }
+}
+
+@media (max-width: 400px) {
   .Mosaic {
     width: 90%
     }
