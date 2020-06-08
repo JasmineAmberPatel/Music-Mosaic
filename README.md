@@ -1,15 +1,5 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+Music Mosaic is a simple web application which uses the Spotify API to get the album art of a current user’s recently played tracks and turn it into a piece of art. 
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
-
-First you must start the development server which is stored locally in the spotify-api-intro repository. You must cd into the auth-server folder and run node app.js this should run the server on local host 8888. 
+This application relies on a backend which can be found here: https://github.com/JasmineAmberPatel/music-mosaic-backend
